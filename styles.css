@@ -63,6 +63,16 @@ body {
     color: red;
 }
 
+.navbar li a[href="contact.html"] {
+    background-color: red;
+    padding: 10px 20px; /* Extra padding to increase the background size */
+    margin: -10px 0;  /* Adjust margin to maintain alignment */
+}
+
+.navbar li a[href="contact.html"]:hover {
+    color: black; /* Change text color to white on hover */
+}
+
 address {
     font-family: Raleway;
     font-style: normal;
