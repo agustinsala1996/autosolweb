@@ -1,0 +1,62 @@
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: Raleway, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.branding {
+    display: flex;
+    flex-direction: column;
+}
+
+.branding h1 {
+    margin: 0;
+    color: red;
+}
+
+.branding p {
+    margin: 0;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar li {
+    padding: 14px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+address {
+    font-family: Raleway;
+    font-style: normal;
+    margin-left: 20px;  /* Match this to the padding of .header */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
