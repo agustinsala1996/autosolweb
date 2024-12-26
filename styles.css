@@ -32,6 +32,7 @@ body {
 .branding h1 {
     margin: 0;
     color: red;
+    font-weight: 700;
 }
 
 .branding p {
@@ -50,6 +51,7 @@ body {
 .navbar li {
     padding: 14px 20px;
     border-radius: 10px;
+    font-weight: 500;
 }
 
 .navbar a {
@@ -66,7 +68,8 @@ body {
 .navbar li a[href="contact.html"] {
     background-color: red;
     padding: 10px 20px; /* Extra padding to increase the background size */
-    margin: -10px 0;  /* Adjust margin to maintain alignment */
+    margin: -10px -10px;  /* Adjust margin to maintain alignment */
+    font-weight: 600;
 }
 
 .navbar li a[href="contact.html"]:hover {
