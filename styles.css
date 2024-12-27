@@ -43,7 +43,18 @@ body {
     padding-left: 20px; /* Add padding to the left for the line */
 }
 
-.branding h1::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 1px; /* Adjust the width of the line */ height: 90%; /* Make sure the line height covers the entire h1 */ background-color: #ffffff; /* White line color */ transform: translateY(10px); /* Move the line down by 10px */ }
+.branding h1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px; /* Adjust the width of the line */
+    height: 90%; /* Make sure the line height covers the entire h1 */
+    background-color: #ffffff; /* White line color */
+    transform: translateY(10px); /* Move the line down by 10px */
+}
+
 .branding p {
     margin: 0;
     font-size: 14px; /* Adjust the font size if needed */
@@ -61,9 +72,11 @@ body {
 }
 
 .navbar li {
-    padding: 14px 20px;
+    position: relative; /* Necesario para el posicionamiento absoluto del dropdown */
+    padding: 10px 10px; /* Aumentar el padding superior e inferior */
     border-radius: 10px;
     font-weight: 500;
+    
 }
 
 .navbar a {
@@ -75,6 +88,14 @@ body {
 
 .navbar a:hover {
     color: red;
+    
+}
+
+.navbar li:hover {
+   /* background-color: rgba(0, 0, 0, 0.2); */
+    cursor: pointer;
+    color: red;
+    
 }
 
 .navbar li a[href="contact.html"] {
@@ -113,19 +134,20 @@ img[alt="Honda Logo"] {
     display: inline; /* Ensures it is aligned with the text */
 }
 
-/* Contenedor del dropdown */
+/* Estilo para el contenedor del dropdown */
 .navbar .dropdown {
     display: none; /* Mantenerlo oculto por defecto */
     position: absolute;
     left: 0;
-    top: calc(100% + 1px); /* Posicionar el dropdown justo después del li + margen extra */
+    top: calc(100% + 1px); /* Posicionar debajo del li */
     background-color: rgba(51, 51, 51, 0.8);
     border-radius: 10px;
     padding: 15px 0;  /* Mayor padding en la parte superior e inferior para más espacio */
     z-index: 999; /* Asegurarse de que esté por encima de otros elementos */
     margin-left: 0; /* Ajustar según sea necesario */
-    width: 250px; /* Ancho mayor para evitar que las palabras se superpongan */
-    min-width: 250px; /* Asegurarse de que no se haga más pequeño */
+    width: 250px; /* Establecer un ancho mayor para evitar que las palabras se superpongan */
+    min-width: 250px;  /* Asegurarse de que no se haga más pequeño */
+    list-style-type: none;
 }
 
 /* Mostrar el dropdown cuando el mouse esté sobre el li o el dropdown */
@@ -156,12 +178,3 @@ img[alt="Honda Logo"] {
 .dropdown a:hover {
     color: red;
 }
-
-/* Estilo para el li que contiene el dropdown */
-.navbar li {
-    position: relative; /* Necesario para el posicionamiento absoluto del dropdown */
-    padding: 14px 20px;
-    border-radius: 10px;
-    font-weight: 500;
-}
-
