@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Raleway, sans-serif;
-    background-color: #f0f0f0;  /* Light gray background for the body */
+    background-color: #ffffff;
 }
 
 .header {
@@ -11,8 +11,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: rgba(51, 51, 51, 0.7); /* Transparent dark gray background */
-    color: white;
+    background-color: rgba(51, 51, 51, 0.8); /* Sets background color with transparency */
+    color: #ffffff;
     border-radius: 10px;
     margin: 10px auto;
     width: 95%;
@@ -21,22 +21,34 @@ body {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 1000;  /* Ensures the header stays above other elements */
+    z-index: 1000; 
 }
 
 .branding {
     display: flex;
-    flex-direction: column;
+    align-items: center; /* Align items vertically centered */
+}
+
+.branding img {
+    margin-right: 10px; /* Adds space between the logo and h1 */
+    width: 60px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
 }
 
 .branding h1 {
     margin: 0;
-    color: red;
-    font-weight: 700;
+    color: #ffffff;
+    font-weight: 680;
+    position: relative;
+    padding-left: 20px; /* Add padding to the left for the line */
 }
 
+.branding h1::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 1px; /* Adjust the width of the line */ height: 90%; /* Make sure the line height covers the entire h1 */ background-color: #ffffff; /* White line color */ transform: translateY(10px); /* Move the line down by 10px */ }
 .branding p {
     margin: 0;
+    font-size: 14px; /* Adjust the font size if needed */
+    color: #ffffff;
+    padding-left: 20px; /* Aligns with h1 padding */
 }
 
 .navbar {
@@ -56,7 +68,7 @@ body {
 
 .navbar a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     display: block;
     border-radius: 10px;
 }
@@ -67,13 +79,13 @@ body {
 
 .navbar li a[href="contact.html"] {
     background-color: red;
-    padding: 10px 20px; /* Extra padding to increase the background size */
-    margin: -10px -10px;  /* Adjust margin to maintain alignment */
+    padding: 10px 20px; 
+    margin: -10px -20px;
     font-weight: 600;
 }
 
 .navbar li a[href="contact.html"]:hover {
-    color: black; /* Change text color to white on hover */
+    color: #020d16; 
 }
 
 address {
@@ -85,4 +97,18 @@ address {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+img[alt="Agencia Autosol"] {
+    display: block;
+    margin: 20px auto;  /* Centers the image horizontally with margin */
+    width: 100%;  /* Adjust the width to match the header's width */
+    max-width: 1440px;  /* Ensure it doesn't exceed the max-width of the header */
+    height: auto;
+    border-radius: 10px;  /* Adds rounded corners to the image */
+}
+
+img[alt="Honda Logo"] {
+    margin-right: 20px; /* Adds space between the logo and h1 */
+    display: inline; /* Ensures it is aligned with the text */
 }
