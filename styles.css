@@ -24,6 +24,7 @@ body {
     z-index: 1000; 
 }
 
+
 .branding {
     display: flex;
     align-items: center; /* Align items vertically centered */
@@ -41,6 +42,17 @@ body {
     font-weight: 680;
     position: relative;
     padding-left: 20px; /* Add padding to the left for the line */
+}
+
+h4 {
+    font-size: 50px;
+    margin: 0;
+    color: #020d16;
+    font-weight: 400;
+    position: relative;
+    padding-left: 40%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .branding h1::before {
@@ -128,6 +140,99 @@ img[alt="Agencia Autosol"] {
     height: auto;
     border-radius: 10px;  /* Adds rounded corners to the image */
 }
+img[alt="header-civic-hybrid"] {
+    display: block;
+    margin: 20px auto;  /* Centers the image horizontally with margin */
+    width: 100%;  /* Adjust the width to match the header's width */
+    max-width: 1440px;  /* Ensure it doesn't exceed the max-width of the header */
+    height: auto;
+    border-radius: 10px;  /* Adds rounded corners to the image */
+}
+img[alt="header-cr-v-hybrid"] {
+    display: block;
+    margin: 20px auto;  /* Centers the image horizontally with margin */
+    width: 100%;  /* Adjust the width to match the header's width */
+    max-width: 1440px;  /* Ensure it doesn't exceed the max-width of the header */
+    height: auto;
+    border-radius: 10px;  /* Adds rounded corners to the image */
+}
+img[alt="header-cr-v"] {
+    display: block;
+    margin: 20px auto;  /* Centers the image horizontally with margin */
+    width: 100%;  /* Adjust the width to match the header's width */
+    max-width: 1440px;  /* Ensure it doesn't exceed the max-width of the header */
+    height: auto;
+    border-radius: 10px;  /* Adds rounded corners to the image */
+}
+img[alt="header-hr-v"] {
+    display: block;
+    margin: 20px auto;  /* Centers the image horizontally with margin */
+    width: 100%;  /* Adjust the width to match the header's width */
+    max-width: 1440px;  /* Ensure it doesn't exceed the max-width of the header */
+    height: auto;
+    border-radius: 10px;  /* Adds rounded corners to the image */
+}
+img[alt="header-zr-v"] {
+    display: block;
+    margin: 20px auto;  /* Centers the image horizontally with margin */
+    width: 100%;  /* Adjust the width to match the header's width */
+    max-width: 1440px;  /* Ensure it doesn't exceed the max-width of the header */
+    height: auto;
+    border-radius: 10px;  /* Adds rounded corners to the image */
+}
+img[alt="header-postventa"] {
+    display: block;
+    margin: 20px auto;  /* Centers the image horizontally with margin */
+    width: 100%;  /* Adjust the width to match the header's width */
+    max-width: 1440px;  /* Ensure it doesn't exceed the max-width of the header */
+    height: auto;
+    border-radius: 10px;  /* Adds rounded corners to the image */
+}
+
+img[alt="new-hr-v-1"]{
+    display: block;
+    margin: 20px auto;  /* Centers the image horizontally with margin */
+    width: 100%;  /* Adjust the width to match the header's width */
+    max-width: 1440px;  /* Ensure it doesn't exceed the max-width of the header */
+    height: auto;
+    border-radius: 10px;  /* Adds rounded corners to the image */
+}
+
+img[alt="new-cr-v-1"]{
+    display: block;
+    margin: 20px auto;  /* Centers the image horizontally with margin */
+    width: 100%;  /* Adjust the width to match the header's width */
+    max-width: 1440px;  /* Ensure it doesn't exceed the max-width of the header */
+    height: auto;
+    border-radius: 10px;  /* Adds rounded corners to the image */
+}
+img[alt="zr-v-1"]{
+    display: block;
+    margin: 20px auto;  /* Centers the image horizontally with margin */
+    width: 100%;  /* Adjust the width to match the header's width */
+    max-width: 1440px;  /* Ensure it doesn't exceed the max-width of the header */
+    height: auto;
+    border-radius: 10px;  /* Adds rounded corners to the image */
+}
+
+img[alt="civic-hybrid-1"]{
+    display: block;
+    margin: 20px auto;  /* Centers the image horizontally with margin */
+    width: 100%;  /* Adjust the width to match the header's width */
+    max-width: 1440px;  /* Ensure it doesn't exceed the max-width of the header */
+    height: auto;
+    border-radius: 10px;  /* Adds rounded corners to the image */
+}
+
+img[alt="cr-v-hybrid-1"]{
+    display: block;
+    margin: 20px auto;  /* Centers the image horizontally with margin */
+    width: 100%;  /* Adjust the width to match the header's width */
+    max-width: 1440px;  /* Ensure it doesn't exceed the max-width of the header */
+    height: auto;
+    border-radius: 10px;  /* Adds rounded corners to the image */
+}
+
 
 img[alt="Honda Logo"] {
     margin-right: 20px; /* Adds space between the logo and h1 */
