@@ -239,7 +239,8 @@ img[alt="Honda Logo"] {
     display: inline; /* Ensures it is aligned with the text */
 }
 
-/* Estilo para el contenedor del dropdown */
+/* Otros estilos permanecen igual */
+
 .navbar .dropdown {
     display: none; /* Mantenerlo oculto por defecto */
     position: absolute;
@@ -253,33 +254,34 @@ img[alt="Honda Logo"] {
     width: 250px; /* Establecer un ancho mayor para evitar que las palabras se superpongan */
     min-width: 250px;  /* Asegurarse de que no se haga más pequeño */
     list-style-type: none;
+    text-align: left; /* Justificar a la izquierda */
 }
 
-/* Mostrar el dropdown cuando el mouse esté sobre el li o el dropdown */
 .navbar li:hover .dropdown {
     display: block; /* Mostrar el dropdown */
 }
 
-/* Mostrar el dropdown también cuando el mouse esté sobre él */
-.navbar .dropdown:hover {
-    display: block; /* Mantener el dropdown visible */
-}
-
-/* Estilo de los elementos dentro del dropdown */
 .dropdown li {
     padding: 12px 20px;  /* Mayor padding para las opciones */
+    display: flex;
+    flex-direction: column; /* Alinear el contenido en columna */
+    align-items: flex-start; /* Alinear a la izquierda */
 }
 
-/* Estilo de los enlaces dentro del dropdown */
+.dropdown img {
+    margin: 5px 0 0 0; /* Alinear la imagen debajo del texto */
+    max-width: 100px;  /* Ajusta según el tamaño de tus miniaturas */
+    height: auto;
+    display: block;
+}
+
 .dropdown a {
     color: #ffffff;
     text-decoration: none;
     border-radius: 10px;
-    display: block; /* Hacer que el enlace ocupe todo el espacio disponible */
     width: 100%; /* Asegurar que el enlace ocupe todo el ancho del contenedor */
 }
 
-/* Hover de los enlaces dentro del dropdown */
 .dropdown a:hover {
     color: red;
 }
