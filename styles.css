@@ -286,3 +286,54 @@ img[alt="Honda Logo"] {
 .dropdown a:hover {
     color: red;
 }
+
+
+/* Ajustes para pantallas medianas */
+@media (max-width: 1200px) {
+    .header {
+        padding: 8px 16px;
+        width: 100%;
+        max-width: 1200px;
+    }
+    
+    .navbar {
+        gap: 15px;
+    }
+    
+    .dropdown {
+        width: 200px;
+        min-width: 200px;
+    }
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 10px;
+    }
+    
+    .branding {
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .dropdown {
+        width: 180px;
+        min-width: 180px;
+    }
+    
+    img {
+        width: 100%;
+    }
+}
