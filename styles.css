@@ -288,11 +288,6 @@ img[alt="Honda Logo"] {
 }
 
 
-/* Ajustes para pantallas de 1366px y menores */
-@media (max-width: 1366px) {
-    body {
-        transform: scale(0.67); /* Reescalar todo al 67% */
-        transform-origin: top left; /* Mantener la escala desde la esquina superior izquierda */
-    }
+/* Ajustes para pantallas de 1366px y menores */ @media (max-width: 1366px) { .container { transform: scale(0.8); /* Reescalar al 80% */ transform-origin: top center; /* Mantener la escala centrada */ }
 }
 
