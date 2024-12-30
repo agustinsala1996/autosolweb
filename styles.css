@@ -269,7 +269,7 @@ img[alt="Honda Logo"] {
 }
 
 .dropdown img {
-    margin: 5px 0 0 0; /* Alinear la imagen debajo del texto */
+    margin-top: 5px; /* Alinear la imagen debajo del texto */
     max-width: 100px;  /* Ajusta según el tamaño de tus miniaturas */
     height: auto;
     display: block;
@@ -280,6 +280,7 @@ img[alt="Honda Logo"] {
     text-decoration: none;
     border-radius: 10px;
     width: 100%; /* Asegurar que el enlace ocupe todo el ancho del contenedor */
+    display: inline-block;
 }
 
 .dropdown a:hover {
