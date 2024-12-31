@@ -296,7 +296,7 @@ img[alt="Honda Logo"] {
     background-color: rgba(51, 51, 51, 0.8); /* Sets background color with transparency */
     color: #ffffff;
     border-radius: 10px;
-    margin: 5px auto 10px auto; /* Ajustar los márgenes superior e inferior */
+    margin: 0px auto 10px auto; /* Ajustar los márgenes superior e inferior */
     width: 95%;
     max-width: 1440px;
     position: relative;
