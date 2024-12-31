@@ -296,13 +296,10 @@ img[alt="Honda Logo"] {
     background-color: rgba(51, 51, 51, 0.8); /* Sets background color with transparency */
     color: #ffffff;
     border-radius: 10px;
-    margin: 10px auto 10px auto; /* Ajustar los márgenes superior e inferior */
+    margin: 5px auto 10px auto; /* Ajustar los márgenes superior e inferior */
     width: 95%;
     max-width: 1440px;
-    position: fixed;
-    bottom: 0; /* Posiciona el footer en la parte inferior */
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
     z-index: 1000; /* Asegura que el footer esté encima de otros elementos */
 }
 
