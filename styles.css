@@ -366,6 +366,18 @@ h7 {
     font-size: 10px;
 }
 
+.material-icons { 
+    padding: 1px; 
+    font-size: 1px; 
+    width: 24px; 
+    text-decoration: none; 
+    margin: 1px; 
+} 
+
+.facebook {     color: #3b5998; 
+    margin-left: auto;
+}
+
 /* Asegura que los elementos ocupen bien el espacio disponible */
 @media (max-width: 768px) {
     .footer {
