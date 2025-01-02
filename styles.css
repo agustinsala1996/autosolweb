@@ -291,24 +291,90 @@ img[alt="Honda Logo"] {
 
 .footer {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: rgba(51, 51, 51, 0.8); /* Sets background color with transparency */
+    justify-content: space-around; /* Reduce el espacio horizontal entre los elementos */
+    align-items: flex-start; /* Asegura que los elementos queden alineados arriba */
+    flex-wrap: wrap; /* Permite que los elementos se acomoden si hay poco espacio horizontal */
+    padding: 20px; /* Margen interno uniforme */
+    background-color: rgba(51, 51, 51, 0.8);
     color: #ffffff;
     border-radius: 10px;
-    margin: 0px auto 10px auto; /* Ajustar los márgenes superior e inferior */
-    width: 95%;
-    max-width: 1440px;
+    margin: 10px auto; /* Centrado automático en toda la página */
+    width: 95%; /* Alinea el footer con los demás elementos de la página */
+    max-width: 1440px; /* Limita el ancho máximo */
     position: relative;
-    z-index: 1000; /* Asegura que el footer esté encima de otros elementos */
+    z-index: 1000;
+    font-size: 16px;
+    gap: 20px; /* Reduce la separación horizontal entre elementos */
+    font-weight: 500;
 }
 
-/* Ajustes para pantallas de 1366px y menores 
-@media (max-width: 1366px) {
-    body {
-        transform: scale(0.80);
-        transform-origin: center;
-    }
-}*/
+/* Estilo para los h5 */
+.footer h5 {
+    margin: 0; /* Elimina márgenes por defecto */
+    padding: 0; /* Elimina cualquier padding extra */
+    text-align: left; /* Asegura que el texto esté alineado a la izquierda */
+    font-weight: 700;
+    font-size: 16px;
+}
 
+/* Agrupación vertical de elementos en el footer */
+.footer div {
+    display: flex;
+    flex-direction: column; /* Organiza los elementos en una columna */
+    align-items: flex-start; /* Alinea los elementos al inicio */
+    gap: 5px; /* Controla la separación entre los elementos */
+    padding: 0 10px; /* Añade un pequeño margen interno lateral para centrar mejor el contenido */
+}
+
+/* Estilo para address */
+.footer address {
+    font-style: normal; /* Normaliza el estilo de fuente */
+    margin: 0;
+    padding: 0;
+    font-size: 12px; /* Ajusta el tamaño de la fuente si es necesario */
+}
+
+/* Estilo para h6 */
+.footer h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 12px; /* Ajusta el tamaño */
+    font-weight: normal; /* Opcional: cambiar el grosor de la fuente */
+}
+
+/* Estilo para enlaces dentro del footer */
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px; /* Ajusta el tamaño de la fuente */
+}
+
+.footer a:hover {
+    color: red; /* Color en hover */
+}
+
+/* Espaciado interno del footer para mantener proporción */
+.footer div:last-child {
+    margin-bottom: 0; /* Asegúrate de no agregar espaciado adicional al último elemento */
+}
+
+
+h7 {
+    display: flex;
+    text-align: left;
+    margin: 20px;
+}
+
+/* Asegura que los elementos ocupen bien el espacio disponible */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column; /* En pantallas pequeñas, los elementos se apilan */
+        align-items: center; /* Centra los elementos */
+        padding: 20px; /* Reduce el padding lateral para pantallas pequeñas */
+    }
+
+    .footer div {
+        align-items: center; /* Cambia la alineación a centro en pantallas pequeñas */
+        padding: 0; /* Elimina padding adicional en pantallas pequeñas */
+    }
+}
