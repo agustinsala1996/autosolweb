@@ -363,6 +363,7 @@ h7 {
     display: flex;
     text-align: left;
     margin: 20px;
+    font-size: 10px;
 }
 
 /* Asegura que los elementos ocupen bien el espacio disponible */
