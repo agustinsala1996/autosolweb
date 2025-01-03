@@ -553,6 +553,21 @@ h7 {
 .contact-box a:hover {
     color: red;
 }
+.map-container {
+    display: flex;
+    justify-content: center; /* Centra el mapa horizontalmente */
+    margin: 20px auto;
+    border: 1px solid #ddd; /* Agrega un borde */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Agrega sombra para consistencia */
+    border-radius: 10px; /* Borde con radio de 10px */
+    overflow: hidden; /* Asegura que el contenido del iframe respete el radio del borde */
+    width: fit-content; /* Ajusta el ancho al contenido del iframe */
+}
+
+.map-container iframe {
+    border: 0; /* Elimina el borde interno del iframe */
+}
+
 
 
 
