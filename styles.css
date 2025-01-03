@@ -514,6 +514,48 @@ h7 {
     word-wrap: break-word; /* Asegura que las palabras largas se dividan */
 }
 
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1200px; /* Ajusta este valor según el ancho deseado */
+    padding: 0 20px; /* Ajusta los márgenes interiores */
+}
+
+.contact-box, .address-box, .hours-box {
+    flex: 1;
+    margin: 0 10px; /* Margen horizontal entre los cuadros */
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.contact-box h3, .address-box h3, .hours-box h3 {
+    margin-top: 0;
+    color: red;
+}
+
+.address-box a {
+    font-weight: bold;
+    color: #333;
+    text-decoration: none; /* Si no quieres que el enlace tenga subrayado */
+}
+
+.address-box a:hover {
+    color: red;
+}
+.contact-box a {
+    color: #333;
+    text-decoration: none; /* Si no quieres que el enlace tenga subrayado */
+}
+
+.contact-box a:hover {
+    color: red;
+}
+
+
+
 /* Asegura que los elementos ocupen bien el espacio disponible */
 @media (max-width: 768px) {
     .footer {
