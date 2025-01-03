@@ -382,7 +382,7 @@ h7 {
 }
 
 
-.landpicture-postventa {
+.landpicture-services {
     display: flex; /* Alinea los hijos en fila */
     align-items: flex-start; /* Alinea verticalmente al inicio */
     justify-content: flex-start; /* Alinea horizontalmente al inicio */
@@ -395,7 +395,7 @@ h7 {
     padding: 0 20px; /* Espaciado lateral consistente con el diseño */
 }
 
-.landpicture-postventa img {
+.landpicture-services img {
     flex-shrink: 0; /* Previene que la imagen se reduzca */
     width: 40%; /* La imagen ocupa el 40% del ancho del contenedor */
     max-width: 600px; /* Ancho máximo de la imagen */
@@ -404,12 +404,12 @@ h7 {
     object-fit: cover; /* Asegura que la imagen no se deforme */
 }
 
-.landpicture-postventa .text-content {
+.landpicture-services .text-content {
     flex: 1; /* El texto ocupa el resto del espacio disponible */
     min-width: 0; /* Previene desbordamientos */
 }
 
-.landpicture-postventa h8 {
+.landpicture-services h8 {
     font-size: 24px; /* Tamaño del título */
     font-weight: bold; /* Título en negrita */
     color: #333; /* Color del texto */
@@ -417,7 +417,51 @@ h7 {
     text-align: left; /* Alineación a la izquierda */
 }
 
-.landpicture-postventa p {
+.landpicture-services p {
+    font-size: 16px; /* Tamaño del texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+    color: #555; /* Color del texto */
+    margin: 0; /* Sin márgenes extra */
+    text-align: left; /* Alineación a la izquierda */
+    word-wrap: break-word; /* Asegura que las palabras largas se dividan */
+}
+
+.landpicture-parts {
+    display: flex; /* Alinea los hijos en fila */
+    align-items: flex-start; /* Alinea verticalmente al inicio */
+    justify-content: flex-start; /* Alinea horizontalmente al inicio */
+    gap: 20px; /* Espaciado entre la imagen y el texto */
+    flex-wrap: nowrap; /* Asegura que los elementos no se apilen */
+    width: 100%; /* Ocupa todo el ancho del contenedor padre */
+    max-width: 1440px; /* Ancho máximo */
+    margin: 120px auto 60px auto; /* Añade margen superior e inferior */
+    overflow: hidden; /* Evita desbordamientos */
+    padding: 0 20px; /* Espaciado lateral consistente con el diseño */
+}
+
+.landpicture-parts img {
+    flex-shrink: 0; /* Previene que la imagen se reduzca */
+    width: 40%; /* La imagen ocupa el 40% del ancho del contenedor */
+    max-width: 600px; /* Ancho máximo de la imagen */
+    height: auto; /* Mantiene las proporciones */
+    border-radius: 10px; /* Bordes redondeados */
+    object-fit: cover; /* Asegura que la imagen no se deforme */
+}
+
+.landpicture-parts .text-content {
+    flex: 1; /* El texto ocupa el resto del espacio disponible */
+    min-width: 0; /* Previene desbordamientos */
+}
+
+.landpicture-parts h8 {
+    font-size: 24px; /* Tamaño del título */
+    font-weight: bold; /* Título en negrita */
+    color: #333; /* Color del texto */
+    margin-bottom: 10px; /* Espaciado con el párrafo */
+    text-align: left; /* Alineación a la izquierda */
+}
+
+.landpicture-parts p {
     font-size: 16px; /* Tamaño del texto */
     line-height: 1.6; /* Espaciado entre líneas */
     color: #555; /* Color del texto */
