@@ -100,19 +100,19 @@ h4 {
 }
 
 .navbar a:hover {
-    color: red;
+    color: #CC0000;
     
 }
 
 .navbar li:hover {
    /* background-color: rgba(0, 0, 0, 0.2); */
     cursor: pointer;
-    color: red;
+    color: #CC0000;
     
 }
 
 .navbar li a[href="contact.html"] {
-    background-color: red;
+    background-color: #CC0000;
     padding: 10px 20px; 
     margin: -10px -20px;
     font-weight: 600;
@@ -287,7 +287,7 @@ img[alt="Honda Logo"] {
 }
 
 .dropdown a:hover {
-    color: red;
+    color: #CC0000;
 }
 
 
@@ -352,7 +352,7 @@ img[alt="Honda Logo"] {
 }
 
 .footer a:hover {
-    color: red; /* Color en hover */
+    color: #CC0000; /* Color en hover */
 }
 
 /* Espaciado interno del footer para mantener proporción */
@@ -533,7 +533,7 @@ h7 {
 
 .contact-box h3, .address-box h3, .hours-box h3 {
     margin-top: 0;
-    color: red;
+    color: #CC0000;
 }
 
 .address-box a {
@@ -543,7 +543,7 @@ h7 {
 }
 
 .address-box a:hover {
-    color: red;
+    color: #CC0000;
 }
 .contact-box a {
     color: #333;
@@ -551,7 +551,7 @@ h7 {
 }
 
 .contact-box a:hover {
-    color: red;
+    color: #CC0000;
 }
 .map-container {
     display: flex;
