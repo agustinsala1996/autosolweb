@@ -412,7 +412,7 @@ h7 {
 .landpicture-services h8 {
     font-size: 24px; /* Tamaño del título */
     font-weight: bold; /* Título en negrita */
-    color: #333; /* Color del texto */
+    color: #CC0000; /* Color del texto */
     margin-bottom: 10px; /* Espaciado con el párrafo */
     text-align: left; /* Alineación a la izquierda */
 }
@@ -456,7 +456,7 @@ h7 {
 .landpicture-parts h8 {
     font-size: 24px; /* Tamaño del título */
     font-weight: bold; /* Título en negrita */
-    color: #333; /* Color del texto */
+    color: #CC0000; /* Color del texto */
     margin-bottom: 10px; /* Espaciado con el párrafo */
     text-align: left; /* Alineación a la izquierda */
 }
@@ -500,7 +500,7 @@ h7 {
 .landpicture-about h8 {
     font-size: 24px; /* Tamaño del título */
     font-weight: bold; /* Título en negrita */
-    color: #333; /* Color del texto */
+    color: #CC0000; /* Color del texto */
     margin-bottom: 10px; /* Espaciado con el párrafo */
     text-align: left; /* Alineación a la izquierda */
 }
