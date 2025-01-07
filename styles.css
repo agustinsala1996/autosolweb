@@ -101,6 +101,8 @@ h4 {
 
 .navbar a:hover {
     color: #CC0000;
+    transition: 0.4s;
+
     
 }
 
@@ -120,6 +122,7 @@ h4 {
 
 .navbar li a[href="contact.html"]:hover {
     color: #020d16; 
+    transition: 0.4s;
 }
 
 address {
@@ -353,6 +356,8 @@ img[alt="Honda Logo"] {
 
 .footer a:hover {
     color: #CC0000; /* Color en hover */
+    transition: 0.4s;
+
 }
 
 /* Espaciado interno del footer para mantener proporción */
