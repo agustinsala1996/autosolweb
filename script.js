@@ -30,7 +30,7 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
-/* //auto slider
+/* //auto slide
 let slideIndex = 1;
 showSlides();
 
