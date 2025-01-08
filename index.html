@@ -14,10 +14,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <script src="script.js"></script>
     <div class="slideshow-container">
-        
+        <div class="mySlides fade">
+           <!-- <div class="numbertext">1 / 3</div>-->
+            <img src="images/headers/header_hybrids.jpg" style="width: 100%" alt="slide1">
+            <!-- <div class="text">Caption Text</div>-->
+        </div>
+        <div class="mySlides fade">
+            <!-- <div class="numbertext">2 / 3</div>-->
+            <img src="images/headers/header_civic_hybrid.jpg" style="width: 100%" alt="slide2">
+            <!-- <div class="text">Caption Text</div>-->
+        </div>
+        <div class="mySlides fade">
+            <!-- <div class="numbertext">3 / 3</div>-->
+            <img src="images/headers/header_crv_hybrid.jpg" style="width: 100%" alt="slide3">
+           <!--  <div class="text">Caption Text</div>-->
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
+    <br>
+    <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+
     <div class="header">
         <div class="branding">
             <img src="./images/logos/hred.png" alt="Honda Logo">
@@ -45,12 +68,10 @@
     </div>
     <br>
     <br>
-    <br>
-    <br>
-    <div class="landing">
-        <div class="landpicture">
+       <!--  <div class="landing">
+            <div class="landpicture">
             <img src="./images/extras/agencia3.jpg" alt="Agencia Autosol">
-        </div>
+        </div> --> 
         <div class="headers">
             <h4>MODELOS</h4>
             <a href="civic-hybrid.html"><img src="images/headers/header_civic_hybrid.jpg" alt="header-civic-hybrid"></a>
@@ -100,5 +121,6 @@
             </div>
         </a>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

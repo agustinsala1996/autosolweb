@@ -1,7 +1,7 @@
 body {
     font-size: 16px;
     margin: 0;
-    padding: 0;
+    padding: 60px 0 0;
     font-family: 'Raleway', sans-serif, monospace;
     background-color: #ffffff;
 }
@@ -23,6 +23,109 @@ body {
     transform: translateX(-50%);
     z-index: 1000; 
 }
+
+.mySlides {
+    display: none;
+}
+
+img[alt="slide1"]{
+ vertical-align: middle;
+ border-radius: 10px;
+
+}
+img[alt="slide2"]{
+    vertical-align: middle;
+    border-radius: 10px;
+
+   }
+img[alt="slide3"]{
+    vertical-align: middle;
+    border-radius: 10px;
+
+   }
+
+.slideshow-container {
+    max-width: 97.7%;
+    position: relative;
+    margin: auto;
+    margin-top: 40px; /* Espacio debajo del header */
+    margin-bottom: 0px; /* Reduce la distancia con el siguiente contenedor */
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 44px;
+    transition: 0.5s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba (0,0,0,0.8);
+}
+
+.text{
+    color:#ff0000;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 8px;
+}
+
+.numbertext{
+    color:#CC0000;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.active, .dot:hover{
+    background-color: #717171;
+
+}
+
+/* .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade{
+    from {opacity: .4}
+    to {opacity: 1}
+}
+@keyframes fade{
+    from {opacity: .4}
+    to {opacity: 1}
+} */
 
 
 .branding {
@@ -51,8 +154,7 @@ h4 {
     color: #666666;
     font-weight: 400;
     position: relative;
-    padding-left: 42.5%;
-    padding-top: 20px;
+    padding-left: 46%;
     padding-bottom: 20px;
 }
 
@@ -307,7 +409,7 @@ img[alt="Honda Logo"] {
     width: 95%; /* Alinea el footer con los demás elementos de la página */
     max-width: 1440px; /* Limita el ancho máximo */
     position: relative;
-    z-index: 1000;
+    z-index: 900;
     font-size: 16px;
     gap: 20px; /* Reduce la separación horizontal entre elementos */
     font-weight: 500;
@@ -378,7 +480,7 @@ h7 {
     right: 20px;
     bottom: 20px;
     padding: 1px;
-
+z-index: 1000;
 }
 .button{
     color: white;
