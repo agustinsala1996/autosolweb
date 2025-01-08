@@ -708,3 +708,81 @@ z-index: 1000;
         padding: 0; /* Elimina padding adicional en pantallas pequeñas */
     }
 }
+.slideshow-containerx {
+    max-width: 97.7%;
+    position: relative;
+    margin: auto;
+    margin-top: 40px; /* Espacio debajo del header */
+    margin-bottom: 0px; /* Reduce la distancia con el siguiente contenedor */
+}
+
+.mySlidesx {
+    display: none;
+    position: relative;
+}
+
+img[alt^="slide"] {
+    vertical-align: middle;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.textx {
+    color: #020d16;
+    font-size: 20px;
+    position: absolute;
+    right: 20px; /* Posiciona el texto a la derecha del contenedor */
+    bottom: 10px; /* Posiciona el texto en la parte inferior derecha del contenedor */
+    text-align: right; /* Alinea el texto a la derecha */
+    max-width: 45%; /* Limita el ancho del texto al 50% del contenedor */
+    white-space: normal; /* Permite que el texto se divida en varias líneas */
+    overflow-wrap: break-word; /* Permite que las palabras se dividan si son demasiado largas */
+}
+
+.prevx, .nextx {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: -22px;
+    color: #CC0000;
+    font-weight: bold;
+    font-size: 44px;
+    transition: 0.5s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.nextx {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prevx:hover, .nextx:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.numbertextx {
+    color: #CC0000;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dotx {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.activex, .dotx:hover {
+    background-color: #CC0000;
+    transition: background-color 0.5s ease;
+}
