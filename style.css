@@ -28,6 +28,7 @@ body {
     display: none;
 }
 
+
 img[alt="slide1"]{
  vertical-align: middle;
  border-radius: 10px;
@@ -73,7 +74,7 @@ img[alt="slide3"]{
 }
 
 .prev:hover, .next:hover {
-    background-color: rgba (0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .text{
@@ -113,19 +114,19 @@ img[alt="slide3"]{
 
 }
 
-/* .fade {
+ /* .fade {
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: .8s;
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: .8s;
 }
 
 @-webkit-keyframes fade{
-    from {opacity: .4}
+    from {opacity: .8}
     to {opacity: 1}
 }
 @keyframes fade{
-    from {opacity: .4}
+    from {opacity: .8}
     to {opacity: 1}
 } */
 
