@@ -786,3 +786,492 @@ img[alt^="slide"] {
     background-color: #CC0000;
     transition: background-color 0.5s ease;
 }
+
+
+
+
+.slideshow-containery {
+    max-width: 97.7%;
+    position: relative;
+    margin: auto;
+    margin-top: 40px; /* Espacio debajo del header */
+    margin-bottom: 0px; /* Reduce la distancia con el siguiente contenedor */
+}
+
+.mySlidesy {
+    display: none;
+    position: relative;
+}
+
+img[alt^="slide"] {
+    vertical-align: middle;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.texty {
+    color: #020d16;
+    font-size: 20px;
+    position: absolute;
+    right: 20px; /* Posiciona el texto a la derecha del contenedor */
+    bottom: 10px; /* Posiciona el texto en la parte inferior derecha del contenedor */
+    text-align: right; /* Alinea el texto a la derecha */
+    max-width: 45%; /* Limita el ancho del texto al 50% del contenedor */
+    white-space: normal; /* Permite que el texto se divida en varias líneas */
+    overflow-wrap: break-word; /* Permite que las palabras se dividan si son demasiado largas */
+}
+
+.prevy, .nexty {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: -22px;
+    color: #CC0000;
+    font-weight: bold;
+    font-size: 44px;
+    transition: 0.5s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.nexty {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prevy:hover, .nexty:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.numbertexty {
+    color: #CC0000;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.doty {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.activey, .doty:hover {
+    background-color: #CC0000;
+    transition: background-color 0.5s ease;
+}
+
+
+
+
+
+.slideshow-containerz {
+    max-width: 97.7%;
+    position: relative;
+    margin: auto;
+    margin-top: 40px; /* Espacio debajo del header */
+    margin-bottom: 0px; /* Reduce la distancia con el siguiente contenedor */
+}
+
+.mySlidesz {
+    display: none;
+    position: relative;
+}
+
+img[alt^="slide"] {
+    vertical-align: middle;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.textz {
+    color: #020d16;
+    font-size: 20px;
+    position: absolute;
+    right: 20px; /* Posiciona el texto a la derecha del contenedor */
+    bottom: 10px; /* Posiciona el texto en la parte inferior derecha del contenedor */
+    text-align: right; /* Alinea el texto a la derecha */
+    max-width: 45%; /* Limita el ancho del texto al 50% del contenedor */
+    white-space: normal; /* Permite que el texto se divida en varias líneas */
+    overflow-wrap: break-word; /* Permite que las palabras se dividan si son demasiado largas */
+}
+
+.prevz, .nextz {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: -22px;
+    color: #CC0000;
+    font-weight: bold;
+    font-size: 44px;
+    transition: 0.5s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.nextz {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prevz:hover, .nextz:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.numbertextz {
+    color: #CC0000;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dotz {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.activez, .dotz:hover {
+    background-color: #CC0000;
+    transition: background-color 0.5s ease;
+}
+
+
+
+.slideshow-containera {
+    max-width: 97.7%;
+    position: relative;
+    margin: auto;
+    margin-top: 40px; /* Espacio debajo del header */
+    margin-bottom: 0px; /* Reduce la distancia con el siguiente contenedor */
+}
+
+.mySlidesa {
+    display: none;
+    position: relative;
+}
+
+img[alt^="slide"] {
+    vertical-align: middle;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.texta {
+    color: #020d16;
+    font-size: 20px;
+    position: absolute;
+    right: 20px; /* Posiciona el texto a la derecha del contenedor */
+    bottom: 10px; /* Posiciona el texto en la parte inferior derecha del contenedor */
+    text-align: right; /* Alinea el texto a la derecha */
+    max-width: 45%; /* Limita el ancho del texto al 50% del contenedor */
+    white-space: normal; /* Permite que el texto se divida en varias líneas */
+    overflow-wrap: break-word; /* Permite que las palabras se dividan si son demasiado largas */
+}
+
+.preva, .nexta {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: -22px;
+    color: #CC0000;
+    font-weight: bold;
+    font-size: 44px;
+    transition: 0.5s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.nexta {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.preva:hover, .nexta:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.numbertexta {
+    color: #CC0000;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dota {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.activea, .dota:hover {
+    background-color: #CC0000;
+    transition: background-color 0.5s ease;
+}
+
+
+.slideshow-containerb {
+    max-width: 97.7%;
+    position: relative;
+    margin: auto;
+    margin-top: 40px; /* Espacio debajo del header */
+    margin-bottom: 0px; /* Reduce la distancia con el siguiente contenedor */
+}
+
+.mySlidesb {
+    display: none;
+    position: relative;
+}
+
+img[alt^="slide"] {
+    vertical-align: middle;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.textb {
+    color: #020d16;
+    font-size: 20px;
+    position: absolute;
+    right: 20px; /* Posiciona el texto a la derecha del contenedor */
+    bottom: 10px; /* Posiciona el texto en la parte inferior derecha del contenedor */
+    text-align: right; /* Alinea el texto a la derecha */
+    max-width: 45%; /* Limita el ancho del texto al 50% del contenedor */
+    white-space: normal; /* Permite que el texto se divida en varias líneas */
+    overflow-wrap: break-word; /* Permite que las palabras se dividan si son demasiado largas */
+}
+
+.prevb, .nextb {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: -22px;
+    color: #CC0000;
+    font-weight: bold;
+    font-size: 44px;
+    transition: 0.5s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.nextb {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prevb:hover, .nextb:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.numbertextb {
+    color: #CC0000;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dotb {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.activeb, .dotb:hover {
+    background-color: #CC0000;
+    transition: background-color 0.5s ease;
+}
+
+
+
+.slideshow-containerc {
+    max-width: 97.7%;
+    position: relative;
+    margin: auto;
+    margin-top: 40px; /* Espacio debajo del header */
+    margin-bottom: 0px; /* Reduce la distancia con el siguiente contenedor */
+}
+
+.mySlidesc {
+    display: none;
+    position: relative;
+}
+
+img[alt^="slide"] {
+    vertical-align: middle;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.textc {
+    color: #020d16;
+    font-size: 20px;
+    position: absolute;
+    right: 20px; /* Posiciona el texto a la derecha del contenedor */
+    bottom: 10px; /* Posiciona el texto en la parte inferior derecha del contenedor */
+    text-align: right; /* Alinea el texto a la derecha */
+    max-width: 45%; /* Limita el ancho del texto al 50% del contenedor */
+    white-space: normal; /* Permite que el texto se divida en varias líneas */
+    overflow-wrap: break-word; /* Permite que las palabras se dividan si son demasiado largas */
+}
+
+.prevc, .nextc {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: -22px;
+    color: #CC0000;
+    font-weight: bold;
+    font-size: 44px;
+    transition: 0.5s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.nextc {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prevc:hover, .nextc:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.numbertextc {
+    color: #CC0000;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dotc {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.activec, .dotc:hover {
+    background-color: #CC0000;
+    transition: background-color 0.5s ease;
+}
+
+
+
+.slideshow-containerd {
+    max-width: 97.7%;
+    position: relative;
+    margin: auto;
+    margin-top: 40px; /* Espacio debajo del header */
+    margin-bottom: 0px; /* Reduce la distancia con el siguiente contenedor */
+}
+
+.mySlidesd {
+    display: none;
+    position: relative;
+}
+
+img[alt^="slide"] {
+    vertical-align: middle;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.textd {
+    color: #020d16;
+    font-size: 20px;
+    position: absolute;
+    right: 20px; /* Posiciona el texto a la derecha del contenedor */
+    bottom: 10px; /* Posiciona el texto en la parte inferior derecha del contenedor */
+    text-align: right; /* Alinea el texto a la derecha */
+    max-width: 45%; /* Limita el ancho del texto al 50% del contenedor */
+    white-space: normal; /* Permite que el texto se divida en varias líneas */
+    overflow-wrap: break-word; /* Permite que las palabras se dividan si son demasiado largas */
+}
+
+.prevd, .nextd {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: -22px;
+    color: #CC0000;
+    font-weight: bold;
+    font-size: 44px;
+    transition: 0.5s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.nextd {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prevd:hover, .nextd:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.numbertextd {
+    color: #CC0000;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dotd {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.actived, .dotd:hover {
+    background-color: #CC0000;
+    transition: background-color 0.5s ease;
+}
+
