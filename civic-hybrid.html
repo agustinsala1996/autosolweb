@@ -495,6 +495,76 @@ function showSlidesb(n) {
 }
 </script>
 
+<div class="slideshow-containerd">
+    <h4>E:HEV</h4>
+    <div class="mySlidesd fade">
+        <video src="images/models/civic-hybrid/ehev/e1.mp4" style="width:50%" alt="slide2d" controls autoplay loop></video>
+        <div class="textd">
+            <b>Modo Electrico</b><br>
+            Vive la experiencia completa de un vehiculo 100% electrico, con una potencia sorprendente y un torque instantaneo, impulsado por baterias de tecnologia avanzada.
+        </div>
+    </div>
+    <div class="mySlidesd fade">
+        <video src="images/models/civic-hybrid/ehev/e2.mp4" style="width:50%" alt="slide2d" controls autoplay loop></video>
+        <div class="textd"><b>Modo Hibrido</b><br>En este modo, a traves de la tecnologia e:HEV el motor de combustion actua como un generador de energia para el motor electrico, manteniendo la traccion 100% electrica. </div>
+        </div>
+        <div class="mySlidesd fade">
+            <video src="images/models/civic-hybrid/ehev/e3.mp4" style="width:50%" alt="slide3d" controls autoplay loop></video>
+            <div class="textd"><b>Modo Combustion</b><br>Solo en situaciones de velocidad crucero alta, el motor de combustion se activa para traccionar las ruedas. De manera de garantizar una mayor eficiencia y un bajo consumo de combustible.</div>
+            </div>
+        <div class="mySlidesd fade">
+            <video src="images/models/civic-hybrid/ehev/e4.mp4" style="width:50%" alt="slide4d" controls autoplay loop></video>
+            <div class="textd"><b>Modo Regeneracion</b><br>En el sistema e:HEV, gestiona de manera inteligente la energia generada durante el frenado e incluso en el movimiento, para recargar las baterias automaticamente sin preocupaciones. </div>
+                </div>
+                <div class="mySlidesd fade">
+                    <img src="images/models/civic-hybrid/ehev/fp.jpg" style="width:50%" alt="slide5d">
+                    <div class="textd"><b>Flujo de Potencia</b><br>Indica el modo de traccion (electrico/combustion/hibrido). El flujo cambia en tiempo real en funcion del estado de conduccion</div>
+                    </div>   
+    <a class="prevd" onclick="plusSlidesd(-1)">&#10094;</a>
+    <a class="nextd" onclick="plusSlidesd(1)">&#10095;</a>
+</div>
+<br>
+<div style="text-align:center">
+    <span class="dotd" onclick="currentSlided(1)"></span>
+    <span class="dotd" onclick="currentSlided(2)"></span>
+    <span class="dotd" onclick="currentSlided(3)"></span>
+    <span class="dotd" onclick="currentSlided(4)"></span>
+    <span class="dotd" onclick="currentSlided(5)"></span>
+</div>
+<script>
+    // Slider functionality
+let slideIndexd = 1;
+showSlidesd(slideIndexd);
+
+function plusSlidesd(n) {
+  showSlidesd(slideIndexd += n);
+}
+
+function currentSlided(n) {
+  showSlidesd(slideIndexd = n);
+}
+
+function showSlidesd(n) {
+  let i;
+  let slidesd = document.getElementsByClassName("mySlidesd");
+  let dotsd = document.getElementsByClassName("dotd");
+  if (n > slidesd.length) {
+    slideIndexd = 1;
+  }
+  if (n < 1) {
+    slideIndexd = slidesd.length;
+  }
+  for (i = 0; i < slidesd.length; i++) {
+    slidesd[i].style.display = "none";
+  }
+  for (i = 0; i < dotsd.length; i++) {
+    dotsd[i].className = dotsd[i].className.replace(" actived", "");
+  }
+  slidesd[slideIndexd - 1].style.display = "block";
+  dotsd[slideIndexd - 1].className += " actived";
+}
+</script>
+
 <div class="slideshow-containerc">
     <h4>COLORES</h4>
     <div class="mySlidesc fade">
@@ -552,75 +622,10 @@ function showSlidesc(n) {
   dotsc[slideIndexc - 1].className += " activec";
 }
 </script>
-
-<div class="slideshow-containerd">
-    <h4>E:HEV</h4>
-    <div class="mySlidesd fade">
-        <img src="images/models/civic-hybrid/colores/img_web_civic_hybrid_meteoroid_gray.jpg" style="width:50%" alt="slide1d">
-        <div class="textd"><b>Modo Electrico</b><br>Vive la experiencia completa de un vehiculo 100% electrico, con una potencia sorprendente y un torque instantaneo, impulsado por baterias de tecnologia avanzada</div>
-    </div>
-    <div class="mySlidesd fade">
-        <img src="images/models/civic-hybrid/colores/img_web_civic_hybrid_platinum_white.jpg" style="width:50%" alt="slide2d">
-        <div class="textd"><b>Modo Hibrido</b><br>En este modo, a traves de la tecnologia e:HEV el motor de combustion actua como un generador de energia para el motor electrico, manteniendo la traccion 100% electrica. </div>
-        </div>
-        <div class="mySlidesd fade">
-            <img src="images/models/civic-hybrid/colores/img_web_civic_hybrid_morning_blue.jpg" style="width:50%" alt="slide3d">
-            <div class="textd"><b>Modo Combustion</b><br>Solo en situaciones de velocidad crucero alta, el motor de combustion se activa para traccionar las ruedas. De manera de garantizar una mayor eficiencia y un bajo consumo de combustible.</div>
-            </div>
-        <div class="mySlidesd fade">
-                <img src="images/models/civic-hybrid/colores/img_web_civic_hybrid_morning_blue.jpg" style="width:50%" alt="slide4d">
-                <div class="textd"><b>Modo Regeneracion</b><br>En el sistema e:HEV, gestiona de manera inteligente la energia generada durante el frenado e incluso en el movimiento, para recargar las baterias automaticamente sin preocupaciones. </div>
-                </div>
-                <div class="mySlidesd fade">
-                    <img src="images/models/civic-hybrid/ehev/fp.jpg" style="width:50%" alt="slide5d">
-                    <div class="textd"><b>Flujo de Potencia</b><br>Indica el modo de traccion (electrico/combustion/hibrido). El flujo cambia en tiempo real en funcion del estado de conduccion</div>
-                    </div>   
-    <a class="prevd" onclick="plusSlidesd(-1)">&#10094;</a>
-    <a class="nextd" onclick="plusSlidesd(1)">&#10095;</a>
-</div>
-<br>
-<div style="text-align:center">
-    <span class="dotd" onclick="currentSlided(1)"></span>
-    <span class="dotd" onclick="currentSlided(2)"></span>
-    <span class="dotd" onclick="currentSlided(3)"></span>
-    <span class="dotd" onclick="currentSlided(4)"></span>
-    <span class="dotd" onclick="currentSlided(5)"></span>
-</div>
-<script>
-    // Slider functionality
-let slideIndexd = 1;
-showSlidesd(slideIndexd);
-
-function plusSlidesd(n) {
-  showSlidesd(slideIndexd += n);
-}
-
-function currentSlided(n) {
-  showSlidesd(slideIndexd = n);
-}
-
-function showSlidesd(n) {
-  let i;
-  let slidesd = document.getElementsByClassName("mySlidesd");
-  let dotsd = document.getElementsByClassName("dotd");
-  if (n > slidesd.length) {
-    slideIndexd = 1;
-  }
-  if (n < 1) {
-    slideIndexd = slidesd.length;
-  }
-  for (i = 0; i < slidesd.length; i++) {
-    slidesd[i].style.display = "none";
-  }
-  for (i = 0; i < dotsd.length; i++) {
-    dotsd[i].className = dotsd[i].className.replace(" actived", "");
-  }
-  slidesd[slideIndexd - 1].style.display = "block";
-  dotsd[slideIndexd - 1].className += " actived";
-}
-</script>
-<h4>Especificaciones Técnicas</h4>
-<a href="images/models/civic-hybrid/ficha/FICHA TÉCNICA CIVIC ADVANCED HYBRID.pdf">FICHA TECNICA CIVIC ADVANCED HYBRID</a>
+<div class="slideshow-containere">
+<h4>ESPECIFICACIONES TECNICAS</h4>
+<a href="images/models/civic-hybrid/ficha/FICHA TÉCNICA CIVIC ADVANCED HYBRID.pdf" class="texte">
+    CLICK AQUI PARA ABRIR FICHA TECNICA CIVIC ADVANCED HYBRID</a></div>
 <div class="footer">
     <div class="modelos-footer">
     <h5>Modelos</h5>

@@ -1205,7 +1205,7 @@ img[alt^="slide"] {
 }
 
 .mySlidesd {
-    display: none;
+    display: block;
     position: relative;
 }
 
@@ -1213,18 +1213,25 @@ img[alt^="slide"] {
     vertical-align: middle;
     border-radius: 10px;
     width: 100%;
+    
+}
+video[alt^="slide"] {
+    vertical-align: middle;
+    border-radius: 10px;
+    width: 100%;
 }
 
 .textd {
+    z-index: 10; /* Asegura que el texto esté arriba */
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
     color: #020d16;
     font-size: 20px;
-    position: absolute;
-    right: 20px; /* Posiciona el texto a la derecha del contenedor */
-    bottom: 10px; /* Posiciona el texto en la parte inferior derecha del contenedor */
-    text-align: right; /* Alinea el texto a la derecha */
-    max-width: 45%; /* Limita el ancho del texto al 50% del contenedor */
-    white-space: normal; /* Permite que el texto se divida en varias líneas */
-    overflow-wrap: break-word; /* Permite que las palabras se dividan si son demasiado largas */
+    text-align: right;
+    max-width: 45%;
+    white-space: normal;
+    overflow-wrap: break-word;
 }
 
 .prevd, .nextd {
@@ -1275,3 +1282,29 @@ img[alt^="slide"] {
     transition: background-color 0.5s ease;
 }
 
+
+.slideshow-containere {
+    max-width: 97.7%;
+    margin: auto;
+    margin-top: 40px; /* Espacio debajo del header */
+    margin-bottom: 0px; /* Reduce la distancia con el siguiente contenedor */
+}
+.texte {
+    z-index: 10; /* Asegura que el texto esté arriba */
+    position: flex;
+    right: 20px;
+    bottom: 10px;
+    color: #020d16;
+    font-size: 24px;
+    text-decoration-line: underline;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1) ;
+
+
+}
+
+.texte:hover{
+
+    background-color: #CC0000;
+    border-radius: 4px;
+    transition: background-color 0.5s ease;
+}
