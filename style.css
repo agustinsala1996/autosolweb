@@ -290,6 +290,14 @@ img[alt="header-zr-v"] {
     height: auto;
     border-radius: 10px;  /* Adds rounded corners to the image */
 }
+img[alt="header-accord-hybrid"] {
+    display: block;
+    margin: 20px auto;  /* Centers the image horizontally with margin */
+    width: 100%;  /* Adjust the width to match the header's width */
+    max-width: 1440px;  /* Ensure it doesn't exceed the max-width of the header */
+    height: auto;
+    border-radius: 10px;  /* Adds rounded corners to the image */
+}
 
 /* img[alt="header-postventa"] {
     display: block;
