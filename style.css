@@ -265,6 +265,7 @@ img[alt="header-cr-v-hybrid"] {
     height: auto;
     border-radius: 10px;  /* Adds rounded corners to the image */
 }
+
 img[alt="header-cr-v"] {
     display: block;
     margin: 20px auto;  /* Centers the image horizontally with margin */
@@ -343,7 +344,14 @@ img[alt="cr-v-hybrid-1"]{
     height: auto;
     border-radius: 10px;  /* Adds rounded corners to the image */
 }
-
+img[alt="accord-hybrid-1"]{
+    display: block;
+    margin: 20px auto;  /* Centers the image horizontally with margin */
+    width: 100%;  /* Adjust the width to match the header's width */
+    max-width: 1440px;  /* Ensure it doesn't exceed the max-width of the header */
+    height: auto;
+    border-radius: 10px;  /* Adds rounded corners to the image */
+}
 
 img[alt="Honda Logo"] {
     margin-right: 20px; /* Adds space between the logo and h1 */
