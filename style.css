@@ -256,6 +256,7 @@ img[alt="header-civic-hybrid"] {
     max-width: 1440px;  /* Ensure it doesn't exceed the max-width of the header */
     height: auto;
     border-radius: 10px;  /* Adds rounded corners to the image */
+    
 }
 img[alt="header-cr-v-hybrid"] {
     display: block;
